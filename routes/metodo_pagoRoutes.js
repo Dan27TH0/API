@@ -1,6 +1,6 @@
 const express=require('express');
 const router=express.Router();
-const metodo_pagoNexus=require('../models/MetodoPago');
+const metodo_pagoNexus=require('../models/Metodo_Pago');
 
 
 router.get('/api/metodo_pago', async (req, res) => {
@@ -25,4 +25,4 @@ router.post('/api/metodo_pago', async (req, res) => {
     }
 })
 
-ex
+module.exports = router;

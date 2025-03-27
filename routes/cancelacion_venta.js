@@ -27,4 +27,4 @@ router.post('/api/cancelacion_venta', async (req, res) => {
     }
 })
 
-exports.default = router;
+module.exports = router;

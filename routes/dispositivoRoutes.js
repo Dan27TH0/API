@@ -26,4 +26,4 @@ router.post('/api/dispositivo', async (req, res) => {
     }
 })
 
-exports.default=router;
+module.exports = router;

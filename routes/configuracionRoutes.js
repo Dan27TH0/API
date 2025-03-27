@@ -26,4 +26,4 @@ router.post('/api/configuracion', async (req, res) => {
     }
 })
 
-exports.default=router;
+module.exports = router;

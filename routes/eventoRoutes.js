@@ -28,4 +28,4 @@ router.post('/api/evento', async (req, res) => {
     }
 })
 
-exports.default = router;
+module.exports = router;

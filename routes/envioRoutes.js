@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const encioNexus = require('../models/Encio');
+const encioNexus = require('../models/Envio');
 
 router.get('/api/encio', async (req, res) => {
     try {
@@ -28,4 +28,4 @@ router.post('/api/encio', async (req, res) => {
 })
 
 
-exports.default = router;
+module.exports = router;

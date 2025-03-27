@@ -30,4 +30,4 @@ router.post('/api/venta', async (req, res) => {
     }
 })
 
-exports.Router = router;
+module.exports = router;

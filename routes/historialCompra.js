@@ -11,7 +11,7 @@ router.get('/api/historialCompra', async (req, res) => {
     }
 })
 
-reouter.post('/api/historialCompra', async (req, res) => {
+router.post('/api/historialCompra', async (req, res) => {
     const historialCompra = new historialCompraNexus({
         usuario_is: req.body.id_usuario,
         carrito_id: req.body.id_producto,
@@ -27,4 +27,4 @@ reouter.post('/api/historialCompra', async (req, res) => {
     }
 })
 
-exports.default = router;
+module.exports = router;

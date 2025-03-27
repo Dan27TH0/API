@@ -1,6 +1,6 @@
 const express=require('express');
 const router=express.Router();
-const misionNexus=require('../models/Mision');
+const misionNexus=require('../models/Mison');
 
 router.get('/api/mision', async (req, res) => {
     try{

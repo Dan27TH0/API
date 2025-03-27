@@ -25,4 +25,4 @@ router.post('/api/vision', async (req, res) => {
     }
 })
 
-exports.default=router;
+module.exports = router;
